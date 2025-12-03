@@ -10,4 +10,4 @@ Este proyecto implementa la primera versión (MVP) del frontend para "Princess F
 * **Funcionalidad Extra:** Carrusel de imágenes funcional en la página de detalle.
 
 ## Enlace al Repositorio Público de GitHub
-[PEGA AQUÍ EL ENLACE A TU REPOSITORIO DE GITHUB]
+[\[REPOSITORIO GITHUB\]](https://github.com/Jeanne1109/Ecommerce-Yanet-Monsalve-Front-end)
