@@ -1,0 +1,108 @@
+:root {
+    /* Paleta de Colores de Princess Fedora */
+    --color-fondo: #f7f3e8;        
+    --color-principal: #212121;      
+    --color-header: #403b3a;         
+    --color-acento: #900020;         
+    --color-secundario: #424242;     
+}
+
+body {
+
+    font-family: 'Times New Roman', Times, serif; 
+    background-color: var(--color-fondo) !important; 
+    color: var(--color-principal); 
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    background-color: var(--color-header) !important;
+    border-bottom: 8px double var(--color-acento); 
+    padding: 15px 20px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpolygon fill='%23424242' points='50,0 61.8,38.2 100,38.2 69.1,61.8 80.9,100 50,76.4 19.1,100 30.9,61.8 0,38.2 38.2,38.2'/%3E%3C/svg%3E");
+    background-size: 30px 30px; 
+    background-repeat: repeat;
+}
+
+.badge {
+    background-color: var(--color-acento) !important;
+    font-weight: bold;
+}
+
+.btn-danger { 
+    background-color: var(--color-acento) !important;
+    border-color: var(--color-acento) !important;
+    color: white !important;
+    font-weight: bold;
+}
+
+.btn-outline-light { 
+    color: var(--color-acento) !important;
+    border-color: var(--color-acento) !important;
+}
+
+.btn-outline-light:hover {
+    background-color: var(--color-acento) !important;
+    color: white !important;
+}
+
+.card {
+    border: 1px solid var(--color-acento); 
+}
+
+
+
+.carousel-wrapper {
+    position: relative;
+    overflow: hidden; 
+    border: 2px solid var(--color-acento);
+    box-shadow: 0 0 15px rgba(144, 0, 32, 0.4);
+    border-radius: 0;
+}
+
+.carousel-slides {
+    display: flex; 
+    transition: transform 0.5s; 
+}
+
+.slide {
+    min-width: 100%; 
+    box-sizing: border-box;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.carousel-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(91, 44, 111, 0.8); 
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    font-size: 1.5em;
+    transition: background-color 0.3s;
+}
+
+.carousel-nav button:hover {
+    background-color: var(--color-acento); 
+}
+
+#prevBtn {
+    left: 0;
+    border-radius: 0 5px 5px 0;
+}
+
+#nextBtn {
+    right: 0;
+    border-radius: 5px 0 0 5px;
+}
